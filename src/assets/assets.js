@@ -252,7 +252,7 @@ export const dashboardDummyData = {
     "totalRevenue": 897,
     "bookings": userBookingsDummyData
 }
-
+export default assets;
 // --------- SVG code for Book Icon------
 /* 
 const BookIcon = ()=>(
