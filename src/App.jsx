@@ -1,4 +1,8 @@
+import { useLocation } from "react-router";
+import Navbar from "./components/Navbar";
+
 const App = () => {
-  return <div className="text-3xl font-bold underline">Hello world!</div>;
+  const isOwnerPath = useLocation().pathname.includes("fasil");
+  return <div>{!isOwnerPath && <Navbar />}</div>;
 };
 export default App;
